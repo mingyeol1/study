@@ -1,7 +1,6 @@
-package com.zerock.study.RepositoryTests;
+package com.zerock.study.Repository;
 
 
-import com.zerock.study.Repository.BoardRepository;
 import com.zerock.study.domain.Board;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;

@@ -55,6 +55,9 @@ dependencies {
             "jakarta.annotation:jakarta.annotation-api",
             "com.querydsl:querydsl-apt:${queryDslVersion}:jakarta"
     )
+
+    //DTO와 엔티티 간의 변환 처리를 위한 ModelMapper
+   implementation 'org.modelmapper:modelmapper:3.1.0'
 }
 
 tasks.named('test') {
